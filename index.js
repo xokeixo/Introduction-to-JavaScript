@@ -36,11 +36,13 @@ Do the following:
 
    HINT: no function required
 */
-let first = 2
-let second = 4
-first = second + 3
-console.log(first);
+let a = 2
+let b = 4
 
+if(a<b){
+  return a;
+}
+console.log(a);
 
 
 
@@ -134,7 +136,7 @@ if(age >= 1 && weight <= 5){
   }
 }
 
-console.log(*task 3*, hungryDog(15, 1));
+console.log(hungryDog(15, 1));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
