@@ -200,8 +200,9 @@ Using the miles function below do the following:
 */
 
 function miles(km){
- 
+  return km * 0.621371;
 }
+console.log(miles(5));
 
 
 
@@ -214,8 +215,9 @@ Using the feet function below do the following:
 */
 
 function feet(cm){
-  /*add your code here*/
+  return cm / 30.48;
 }
+console.log(feet(5));
 
 
 
